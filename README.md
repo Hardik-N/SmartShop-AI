@@ -3,7 +3,8 @@ AI-Powered E-Commerce Recommendation System
 
 A recommendation system that provides personalized product suggestions based on user behavior and preferences.
 
-DEMO VIDEO drive link: https://drive.google.com/file/d/1OVWff6ndEHuSsfGieyJnUp0Gb01I1DGG/view?usp=sharing
+DEMO VIDEO of working project
+drive link: https://drive.google.com/file/d/1OVWff6ndEHuSsfGieyJnUp0Gb01I1DGG/view?usp=sharing
 
 
 🚀 Features
