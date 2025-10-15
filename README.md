@@ -76,12 +76,15 @@ Start Frontend
 
 cd UI
 npm run dev
+
+
 Frontend available at: http://localhost:3000
 
 🧪 Testing the Application
 
 Generate test data: Visit http://localhost:8000/debug/generate-data
- and copy the returned test_user_id.
+ 
+and copy the returned test_user_id.
 
 Open the frontend: Go to http://localhost:3000
  and enter the test user ID to see personalized recommendations.
@@ -117,7 +120,7 @@ Optimized SQL queries
 
 Frontend state optimization
 
-🧩 Project Structure
+#🧩 Project Structure
 
 SmartShop-AI/
 │
