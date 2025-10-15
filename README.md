@@ -92,12 +92,16 @@ Open the frontend: Go to http://localhost:3000
 Interact with the system — rate products and give feedback.
 
 🔑 Key API Endpoints
-Endpoint	Method	Description
-/recommendations/{user_id}	GET	Fetch recommendations
-/feedback	POST	Submit feedback
-/debug/generate-data	GET	Generate sample data
-/debug/users	GET	List test users
-/debug/products	GET	List sample products
+## 🔑 Key API Endpoints  
+
+| **Endpoint** | **Method** | **Description** |
+|---------------|-------------|------------------|
+| `/recommendations/{user_id}` | `GET` | Fetch recommendations |
+| `/feedback` | `POST` | Submit feedback |
+| `/debug/generate-data` | `GET` | Generate sample data |
+| `/debug/users` | `GET` | List test users |
+| `/debug/products` | `GET` | List sample products |
+
 🗂️ Database Overview
 
 Main Tables:
@@ -120,25 +124,29 @@ Optimized SQL queries
 
 Frontend state optimization
 
-#🧩 Project Structure
+## 🧩 Project Structure  
 
+```
 SmartShop-AI/
 │
-├── app/ # Backend (FastAPI)
-│ ├── main.py
-│ ├── models.py
-│ ├── routes/
-│ ├── ml/
-│ └── database.py
+├── app/                     # Backend (FastAPI)
+│   ├── main.py
+│   ├── models.py
+│   ├── routes/
+│   ├── ml/
+│   └── database.py
 │
-├── UI/ # Frontend (Next.js)
-│ ├── pages/
-│ ├── components/
-│ ├── styles/
-│ └── package.json
+├── UI/                      # Frontend (Next.js)
+│   ├── pages/
+│   ├── components/
+│   ├── styles/
+│   └── package.json
 │
 ├── requirements.txt
 └── README.md
+```
+
+
 
 👨‍💻 Author
 
